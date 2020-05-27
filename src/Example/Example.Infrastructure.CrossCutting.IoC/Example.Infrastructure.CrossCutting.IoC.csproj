@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.CrossCutting.IoC\Core.Infrastructure.CrossCutting.IoC.csproj" />
+    <ProjectReference Include="..\Example.Infrastructure.Data.Context\Example.Infrastructure.Data.Context.csproj" />
+    <ProjectReference Include="..\Example.Infrastructure.Data.Repository\Example.Infrastructure.Data.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,52 @@
+﻿using Microsoft.EntityFrameworkCore.Migrations;
+
+namespace Core.Infrastructure.Data.Migrations.Migrations
+{
+    public partial class seed_NaturezaPeticao : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql(@"truncate naturezas_peticoes;
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('2','380','2187','554','2182',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('3','380','2187','545','601',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('6','380','2187','554','2178',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('8','380','2187','554','2179',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('9','380','2187','545','605',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('10','37','2187','545','601',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('11','37','2187','554','2178',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('12','37','2187','554','2181',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('13','37','2187','554','2182',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('14','37','2187','545','605',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('15','37','2187','554','2179',to_date('23/07/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('42','37','2187','545','585',to_date('12/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('17','119','2187','545','2179',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('18','119','2187','554','2182',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('19','119','2187','545','601',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('20','924','2187','545','2179',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('21','924','2187','554','2182',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('22','924','2187','545','605',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('23','951','2187','545','2179',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('24','951','2187','554','2182',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('25','951','2187','554','2101',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('26','951','2187','545','605',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('27','951','2187','545','601',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('28','952','2187','545','2179',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('29','952','2187','554','2182',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('30','952','2187','554','2101',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('31','952','2187','545','605',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('32','952','2187','545','601',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('33','948','2187','545','2179',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('34','948','2187','554','2182',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('35','948','2187','554','2101',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('36','948','2187','545','605',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('37','948','2187','545','601',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('38','380','2187','671','2183',to_date('11/12/19','DD/MM/RR'),null);
+                                Insert into TCEMG.NATUREZAS_PETICOES (COD_NATUREZAS_PETICOES,COD_NAT,COD_ORIGEM_DOC,COD_TIPO_DOC,COD_OBJETIVO_DOC,DAT_INICIO,DAT_FIM) values ('39','380','2187','545','570',to_date('11/12/19','DD/MM/RR'),null);");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+
+        }
+    }
+}
